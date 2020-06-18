@@ -1,0 +1,79 @@
+body{
+   margin-top: 10vh;
+   display: flex;
+   justify-content: center;
+}
+
+.game{
+   padding: .5%;
+   background: #339933;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   align-items: center
+}
+
+.scoreboard{
+   width: 40vh;
+   height: 8vh;
+   border: 3px inset #339933;
+   border-radius: 4px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center
+}
+
+.smile-button{
+   width: 5.5vh;
+   height: 5.5vh;
+   background: #339933;
+   padding: 0;
+   font-size: 2.5vh;
+   color: #339933;
+   border: 3px outset black;
+}
+
+.flags-left, .timer{
+   margin: 0px 10px;
+   width: 9vh;
+   height: 5.5vh;
+   background: #339933;
+   padding: 0;
+   font-size: 2.5vh;
+   border: 3px outset black;
+}
+
+.btn-grid{
+   width: 40vh;
+   height: 40vh;
+   margin: 0;
+   border: 3px inset #339933;
+   border-radius: 4px;
+   display: grid;
+   grid-template-rows: repeat(10, 4vh);
+   grid-template-columns: repeat(10, 4vh);
+   padding: 0
+}
+
+.unchecked{
+   background: #339933;
+   padding: 0;
+   font-size: 1.7vh;
+   color: #339933;
+   border: 3px outset black;
+   transition: 250ms
+}
+
+.unchecked:hover{
+   background: #00ff00;
+   color: #00ff00;
+   transform: scale(1.2)
+}
+
+.checked{
+   padding: 0;
+   font-size: 1.7vh;
+   color: black;
+   border: 3px outset black;
+}
