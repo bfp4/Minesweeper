@@ -123,7 +123,7 @@ function clickBtn(btnId){
          btn.classList.add("checked")
          break;
    }
-   if(document.querySelectorAll(".checked").length == 88){
+   if(document.querySelectorAll(".checked").length == 87){
       setTimeout(() => face.innerHTML = "😃", 300)
       bombArray.forEach(bomb => {
          let btn = document.getElementById(`btn${bomb}`)
